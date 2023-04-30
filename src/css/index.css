@@ -1,0 +1,111 @@
+.background{
+    background-color: #1d371c;
+    color: #ffffff;
+
+}
+.h3{
+    padding-top: 20px;
+}
+
+.Navbar{
+    background-color: #0d200c;
+}
+
+.emphasizeWord{
+    color: rgb(248, 150, 255);
+    font-size: 21pt;
+    font-style: italic;
+}
+
+.DataTable{
+    margin-top: 4%;
+}
+
+.emphasizeWord2{
+    padding-right: 2px;
+    color: rgb(248, 150, 255);
+    font-size: 28pt;
+    font-style: italic;
+}
+
+.CardFooter{
+    color:black;
+}
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.footerDiv{
+
+    
+
+}
+
+.CardHeader{
+    color:black;
+}
+
+.HomeImage{
+    width: 100%;
+    margin-top: -1%;
+}
+
+
+.FormContainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    margin-top: 15%;
+    width: 50%;
+    padding: 10px;
+    color: #000000;
+}
+
+.ColLeft{
+    background-color: #d4e1ff;
+}
+
+.ColRight{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 10px;
+}
+
+.AssignProductPage{
+    background-color: #d4e1ff;
+}
+
+.star{
+    cursor:pointer;
+    transition: color 200ms;
+  }
+
+input[type='radio']{
+    display:none;
+}
+
+.form{
+    color: #000000;
+    display: inline-block;
+}
+.bannerParagraph{
+    padding-bottom: 30px;
+}
+
+.HomePage{
+    background-image: url("../assets/fly-d-J_btv0n9EIU-unsplash.jpg");
+    content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	display:block;
+    background-size: 100% ;
+    background-size:cover;
+    display:block;
+}
