@@ -13,6 +13,7 @@ import MarbleImage from "../components/MarbleImage"
 import AlternateBanner from "../components/AlternateBanner";
 import ITech from "../components/ITech";
 
+
 export default function Products(){
     const[content, setContent] = useState(<ProductList showForm ={showForm}/>);
 
@@ -76,7 +77,7 @@ function deleteProduct(id){
     return (
         <div >
 
-        <Table striped bordered hover size="sm" className="DataTable container" variant="dark">
+        <Table striped bordered hover size="sm" className="DataTable container ms-5" variant="dark">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -117,7 +118,7 @@ function deleteProduct(id){
 
         <div className="container CreateRefreshButtons">
             <ButtonGroup>
-                <Button onClick={() => props.showForm([])} variant ="primary">Create</Button>
+                <Button onClick={() => props.showForm([])} variant ="secondary" >Create</Button>
                 <Button onClick={() => fetchProducts()} variant ="outline-secondary">Refresh</Button> 
             </ButtonGroup>
         </div>
