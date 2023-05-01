@@ -1,12 +1,20 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 export default function Banner(){
     return(
-        <div className="background ">
-            <h3 className="container h3"><span className="emphasizeWord2">I</span>nventory your company's <span className='emphasizeWord'>Technology</span></h3>
-            <p className="container bannerParagraph"> Welcome to our database company! We specialize in logging all technologies provided to employees, including the date of distribution, brand and model, price, and the employee who received the device. With our services, you can easily track your expenses towards your tech products and gain better visibility over your inventory. Our platform can help you report data to your insurance provider, assist with tax season filings, and account for the whereabouts of your company's devices. Whether you're a small business or a large enterprise, our database solutions can streamline your technology management and help you make informed decisions. </p>
-        </div>
+        <Row>
+            <Col>
+            </Col>
+            <Col></Col>
+            <Col></Col>
+            <Col className="background">
+            <p className="mt-2"> Welcome to our database company that specializes in logging company expenses and providing real-time status updates of your business operations. Our team's goal is to help you gain better visibility into your financial life, so you can make more informed decisions and optimize your operation. With our comprehensive solutions, you can save time and money no matter what size your business is. We have a team of experts who understands the importance of managing finances, so we're dedicated to providing the best possible service for you. Contact us today to learn more about our services!</p>
+</Col>
+            <Col></Col>
+        </Row>
         );
     }

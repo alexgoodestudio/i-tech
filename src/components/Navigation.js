@@ -9,10 +9,11 @@ function Navigation () {
       <Navbar className="Navbar " variant="dark">
         <Container>
           <Navbar.Brand href="/">I TECH</Navbar.Brand>
-            <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/Products">Products</Nav.Link>
-          </Nav>
+              <Nav className="me-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/products">Manage</Nav.Link>
+                <Nav.Link href="/subscribe">Subscribe</Nav.Link>
+            </Nav>
         </Container>
       </Navbar>
   );

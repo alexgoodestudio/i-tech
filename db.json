@@ -66,18 +66,29 @@
     {
       "name": "Paul",
       "brand": "Iphone",
-      "category": "Phones",
-      "price": "400",
+      "category": "Other",
+      "price": "300",
       "createdAt": "2023-04-28",
-      "id": 8
+      "id": 8,
+      "description": "bought used"
     },
     {
       "name": "Issac",
       "brand": "TMobile Galaxy",
       "category": "Other",
-      "price": "440",
+      "price": "340",
       "createdAt": "2023-04-28",
-      "id": 9
+      "id": 9,
+      "description": "bought used"
+    },
+    {
+      "name": "Alex ",
+      "brand": "TMobile",
+      "category": "Other",
+      "price": "340",
+      "description": "smartphone",
+      "createdAt": "2023-04-30",
+      "id": 10
     }
   ]
 }
