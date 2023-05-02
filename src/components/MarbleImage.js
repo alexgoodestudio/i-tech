@@ -1,5 +1,5 @@
 import React from "react"
-import MarbleImage from "../assets/fly-d-J_btv0n9EIU-unsplash.jpg"
+import MarbleImage from "../assets/Screenshot 2023-05-01 at 9.34.51 PM.png"
 
  export default function Image(){
     return(

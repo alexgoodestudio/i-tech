@@ -77,7 +77,7 @@ function deleteProduct(id){
     return (
         <div >
 
-        <Table striped bordered hover size="sm" className="DataTable container ms-5" variant="dark">
+        <Table striped bordered hover size="sm" className="DataTable container " variant="dark">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -116,7 +116,7 @@ function deleteProduct(id){
     </Table>
 
 
-        <div className="container CreateRefreshButtons">
+        <div className="CreateRefreshButtons">
             <ButtonGroup>
                 <Button onClick={() => props.showForm([])} variant ="secondary" >Create</Button>
                 <Button onClick={() => fetchProducts()} variant ="outline-secondary">Refresh</Button> 

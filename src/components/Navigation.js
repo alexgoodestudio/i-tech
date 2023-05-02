@@ -8,7 +8,7 @@ function Navigation () {
   return (
       <Navbar className="Navbar " variant="dark">
         <Container>
-          <Navbar.Brand href="/">I TECH</Navbar.Brand>
+          <Navbar.Brand href="/">i TECH</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/products">Manage</Nav.Link>

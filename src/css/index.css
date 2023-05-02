@@ -1,10 +1,9 @@
 .background{
-    
-    background-color: #d4e1ff;
-    color: #4974a5;
+    background-color: #000000;
+    color: #d4e1ff;
     font-size: 9.3pt;
     text-align:justify; 
-    
+ 
 }
 .Altbackground{
     text-align:justify;
@@ -13,7 +12,7 @@
 }
 
 .LeftPanel{
-    background-color: #d4e1ff;
+    background-color: #000000;
     margin-right: -50px;
 }
 
@@ -22,12 +21,9 @@
     margin-right: -50px;
 }
 
-
 .ITechTwo{
     text-align: center;
-    margin-bottom: 30px;
-    
-    
+    margin-bottom: 42px;
 }
 .wordOverImage{
     font-size: 1400%;
@@ -37,12 +33,20 @@
 .ProductsPage{
     background-color: #000000;
 }
+.subscribeheader{
+    color:#d4e1ff;
+    background-color: #000000;
+}
 .h3{
     padding-top: 20px;
 }
-
+.CreateRefreshButtons{
+    margin-top: 60px;
+    margin-left: 236px;
+}
 .Navbar{
     background-color: #000000;
+    
 }
 .CImage{
     width: 100%;
@@ -63,6 +67,10 @@
     font-size: 15pt;
 }
 
+.paragraphbanner{
+    font-size: 12pt;
+    
+}
 
 .CardFooter{
     color:black;
@@ -73,7 +81,18 @@
     background-color: #d4e1ff;
 }
 
-
+.blackBG{
+    background-color: #000000;
+}
+.HomeBanner{
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: -4px;
+    border-bottom-right-radius: 30px;
+    color:#ffffff;
+}
 .CardHeader{
     color:black;
 }
@@ -82,7 +101,6 @@
     width: 100%;
     margin-top: -1%;
 }
-
 
 .FormContainer{
     margin-left: auto;
@@ -120,7 +138,7 @@
 
 
 .HomePage{
-    background-image: url("../assets/fly-d-J_btv0n9EIU-unsplash.jpg");
+    background-image: url("../assets/codioful-formerly-gradienta--26tN1A7kHg-unsplash.jpg");
     content:"";
 	position:fixed;
 	left:0;

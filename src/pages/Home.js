@@ -3,14 +3,36 @@ import Footer  from "../components/CardFooter";
 import 'bootstrap/dist/css/bootstrap.css';
 import Banner from "../components/Banner";
 import ITech from "../components/ITech";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Home(){
     return(
         <>
+        <Row>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        </Row>
+            <Row>
+            <Col></Col>
             
-                <Banner/>
-                <div className="HomePage kenburns-bottom-right"></div>
-                <ITech className="container tracking-in-expand"/>
+                    <Col >
+                        <div className="HomePage kenburns-bottom-right"></div>
+                        <ITech className="tracking-in-expand"/>
+                        <div className="HomeBanner">
+                            <Banner/>
+                        </div>
+                </Col>
+                
+                <Col></Col>
+                <Col></Col>
+            </Row>
                 <Footer className="footer"/>
        
         </> 
