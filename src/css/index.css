@@ -7,8 +7,16 @@
 }
 .Altbackground{
     text-align:justify;
-    font-size: 12pt;
+    font-size: 18pt;
     color: #d4e1ff;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.altpara{
+    margin-top:20%;
+    margin-right: -20%;
+   
 }
 
 .LeftPanel{
@@ -23,20 +31,20 @@
 
 .ITechTwo{
     text-align: center;
-    margin-bottom: 42px;
+    font-size: 11pt;
+    margin-left: 7.4%;
+    
 }
+
 .wordOverImage{
     font-size: 1400%;
-    margin-left: 1200px;
     color: #ffffff;
     }
+
 .ProductsPage{
     background-color: #000000;
 }
-.subscribeheader{
-    color:#d4e1ff;
-    background-color: #000000;
-}
+
 .h3{
     padding-top: 20px;
 }
@@ -46,8 +54,23 @@
 }
 .Navbar{
     background-color: #000000;
+}
+
+.subscribeheader{
+    margin-left: 70px;
+    margin-top: 15%;
+    font-size: 80px;
+    margin-bottom: 20px;
     
 }
+
+.subscribeparagraph{
+    text-align: justify;
+    margin-left: 120px;
+    margin-right: 70px;
+    font-size: 15pt;
+}
+
 .CImage{
     width: 100%;
 }
@@ -55,6 +78,11 @@
 .DataTable{
     background-color: #ffffff;
     
+}
+
+.SubscribePage{
+    background-color: #000000;
+    color: #d4e1ff;
 }
 
 .bannerDataPage{
@@ -68,7 +96,7 @@
 }
 
 .paragraphbanner{
-    font-size: 12pt;
+    font-size: 14pt;
     
 }
 
@@ -81,6 +109,25 @@
     background-color: #d4e1ff;
 }
 
+.productExplanation{
+    
+}
+
+.tabletitle{
+    font-size: 80pt;
+}
+
+.tableheader{
+    color: #bbbbbb;
+}
+
+.tablepara{
+font-size: 11pt;
+margin-bottom: 100px;
+color: #bbbbbb;
+text-align: justify;
+}
+
 .blackBG{
     background-color: #000000;
 }
@@ -88,19 +135,13 @@
     text-align: justify;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: -4px;
-    border-bottom-right-radius: 30px;
     color:#ffffff;
+    font-size: 15pt;
 }
 .CardHeader{
     color:black;
 }
 
-.HomeImage{
-    width: 100%;
-    margin-top: -1%;
-}
 
 .FormContainer{
     margin-left: auto;

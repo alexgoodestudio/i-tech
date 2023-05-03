@@ -28,9 +28,26 @@ export default function Products(){
     return(
         <div className="ProductsPage"> 
             <Row>
-                <Col className="ITechTwo"><ITech />
-                <AlternateBanner /></Col>
-                <Col></Col>
+                <Col className="ITechTwo">
+                    <ITech />
+                </Col>
+                
+                <Col>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    
+                    <AlternateBanner />
+
+                    <br/>
+                    
+
+                </Col>
+                
             </Row>
             {content}
             <Footer/>
@@ -75,8 +92,22 @@ function deleteProduct(id){
     }
 
     return (
-        <div >
+        <div className="productExplainer container">
 
+            <Row>
+                <Col>
+                    <p className="tablepara">The product works by securely collecting and organizing financial information in one
+                    central location, making it easy for users to track their spending, monitor their investments, and analyze their
+                    overall financial health. The database product provides users with a range of tools and features to help them gain
+                    better insight into their finances. These tools include budgeting tools, investment tracking, financial planning tools, 
+                    and reporting capabilities. By using these tools, users can identify areas where they can reduce expenses, optimize their
+                    investments, and improve their overall financial situation.</p>
+                </Col>
+                
+                <Col></Col>
+            </Row>
+
+            
         <Table striped bordered hover size="sm" className="DataTable container " variant="dark">
             <thead>
                 <tr>

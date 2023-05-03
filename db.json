@@ -80,15 +80,6 @@
       "createdAt": "2023-04-28",
       "id": 9,
       "description": "bought used"
-    },
-    {
-      "name": "Alex ",
-      "brand": "TMobile",
-      "category": "Other",
-      "price": "340",
-      "description": "smartphone",
-      "createdAt": "2023-04-30",
-      "id": 10
     }
   ]
 }

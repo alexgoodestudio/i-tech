@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import ITech from "../components/ITech";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import SubscribeButton from "../components/SubscribeButton";
 
 export default function Home(){
     return(
@@ -27,6 +28,7 @@ export default function Home(){
                         <ITech className="tracking-in-expand"/>
                         <div className="HomeBanner">
                             <Banner/>
+                            <SubscribeButton/>
                         </div>
                 </Col>
                 
