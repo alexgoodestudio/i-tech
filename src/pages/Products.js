@@ -7,11 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.css';
-import Footer from "../components/CardFooter";
 import "../css/index.css"
 import MarbleImage from "../components/MarbleImage"
 import AlternateBanner from "../components/AlternateBanner";
 import ITech from "../components/ITech";
+
 
 
 export default function Products(){
@@ -32,10 +32,7 @@ export default function Products(){
                     <ITech />
                 </Col>
                 
-                <Col>
-                    <br/>
-                    <br/>
-                    <br/>
+                <Col sm={8}>
                     <br/>
                     <br/>
                     <br/>
@@ -44,21 +41,11 @@ export default function Products(){
                     <AlternateBanner />
 
                     <br/>
-                    
-
                 </Col>
                 
             </Row>
             {content}
-            <Footer/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+
         </div>
     )
     }
@@ -97,14 +84,16 @@ function deleteProduct(id){
             <Row>
                 <Col>
                     <p className="tablepara">The product works by securely collecting and organizing financial information in one
-                    central location, making it easy for users to track their spending, monitor their investments, and analyze their
+                    central location, making it easy for users to track their spending, and analyze their
                     overall financial health. The database product provides users with a range of tools and features to help them gain
-                    better insight into their finances. These tools include budgeting tools, investment tracking, financial planning tools, 
+                    better insight into their spending. </p>
+                </Col>                <Col>
+                    <p className="tablepara">  These tools include budgeting tools, financial planning tools, 
                     and reporting capabilities. By using these tools, users can identify areas where they can reduce expenses, optimize their
                     investments, and improve their overall financial situation.</p>
                 </Col>
                 
-                <Col></Col>
+                
             </Row>
 
             
@@ -148,7 +137,7 @@ function deleteProduct(id){
 
 
         <div className="CreateRefreshButtons">
-            <ButtonGroup>
+            <ButtonGroup className="editdeletebuttons">
                 <Button onClick={() => props.showForm([])} variant ="secondary" >Create</Button>
                 <Button onClick={() => fetchProducts()} variant ="outline-secondary">Refresh</Button> 
             </ButtonGroup>
@@ -229,8 +218,9 @@ function ProductForm(props){
         <div className="APP">
                     {errorMessage}  
                         <Row>
-                            <Col sm={5} className="ColLeft"> 
-                            <div className="asdContainer">                           
+                            <Col sm={6} className="ColLeft"> 
+                            <div className="asdContainer">  
+                            <br/>                         
                             <p className=" andh">{props.product.id ? "Edit Product" : "Assign New Device"}</p>
                                 <Form  onSubmit={(event) => handleSubmit(event)} >
                                     <Form.Group>
@@ -294,30 +284,17 @@ function ProductForm(props){
                                     <ButtonGroup>    
                                         <Button      
                                             type = "submit"
-                                            variant ="outline-secondary"
+                                            variant ="outline-light"
                                             className="mb-3"> Save
                                         </Button>
                                         <Button onClick={() => props.showList()} 
-                                            variant ="outline-secondary"
+                                            variant ="light"
                                             className="mb-3"> Cancel
                                         </Button>
                                     </ButtonGroup>   
                                 </Form>   
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-
-                                <br/>
-                                <br/>
-                                <br/>
-                                </div>                       
+                                </div>     
+                                                  
                             </Col>
                             
                                 <Col className="ColRight">

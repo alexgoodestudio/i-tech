@@ -11,7 +11,7 @@ function Navigation () {
           <Navbar.Brand href="/">i TECH</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/products">Work</Nav.Link>
+                <Nav.Link href="/products">Preview</Nav.Link>
                 <Nav.Link href="/subscribe">Subscribe</Nav.Link>
             </Nav>
         </Container>

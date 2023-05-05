@@ -2,23 +2,26 @@ import React from "react";
 import ComputerImage from "../components/ComputerImage"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Subscribe2 from "../components/SubscribeForm";
 
 
-export default function Subscribe(){
+export default function SubscribePage(){
     return(
         <div className="SubscribePage">
         <Row>
-            <Col>
+            <Col xs={9}>
             
-                <h2 className="subscribeheader">Subscribe.</h2>
-                <p className="subscribeparagraph">If you are looking for a reliable and efficient way to manage your business expenses and operations, subscribing to our database company is the way to go. Our team specializes in logging company expenses and providing real-time status updates, so you can gain better visibility into your financial life and make more informed decisions.
-                                                  Our comprehensive solutions are designed to cater to businesses of all sizes, and with our expertise in managing finances, we can help you save time and money. Our team of experts understands the importance of managing finances, and we are dedicated to providing top-notch services that will help optimize your operation.
-                                                  By subscribing to our database company, you can have peace of mind knowing that your business expenses and operations are being handled by professionals who are committed to delivering excellent results.</p>
+                <h2 className="subscribeheader empha">Get Started with a Free Trial.</h2>
+                <p className="subscribeparagraph">
+                                                  If you are looking for a reliable and efficient way to manage your business expenses and operations, subscribing to our database company is the way to go. 
+                                                  You can have peace of mind knowing that your business expenses and operations are being handled by professionals who are committed to delivering excellent results.
+                                                  By subscribing, we will email you a link to get started with your <span className="empha">  one month free trial!</span></p>        
+            
                 
-
-            </Col>
-            <Col><ComputerImage/></Col>
-            </Row>
-        </div>
-        )
-    }
+                                                    <Subscribe2 />
+                                                </Col>
+                                            <Col><ComputerImage/></Col>
+                                        </Row>
+                                    </div>
+                                    )
+                                }
