@@ -169,15 +169,10 @@ margin-top: 3%;
 }
 .HomeBanner{
     text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
     color:#ffffff;    
-    border-style:;
-    padding-bottom:5px;
-    margin-left: 25px;
-    
    
 }
+
 .HomeSButtton{
     float:right;
    
@@ -200,8 +195,7 @@ margin-top: 3%;
 
 
 .ColLeft{
-    background-color: #7455da;
-    padding-top: ;
+    background-color: #5637be;
     
 }
 
@@ -216,7 +210,7 @@ margin-top: 3%;
 }
 
 .APP{
-    background-color: #7455da;
+    background-color: #5637be;
    
 }
 
@@ -231,7 +225,7 @@ margin-top: 3%;
 
 
 .HomePage{
-    background-image: url("../assets/codioful-formerly-gradienta--26tN1A7kHg-unsplash.jpg");
+    background-image: url("../assets/milad-fakurian-nY14Fs8pxT8-unsplash.jpg");
     content:"";
 	position:fixed;
 	left:0;
@@ -345,3 +339,51 @@ height: 100%;
     }
   }
   
+  h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #2b0f5c;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h1 {
+    position: relative;
+    font-size: 5rem;
+  }
+  
+  html {
+    inline-size: 100%;
+  }
+  
+  body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+  }
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+  .colL{
+    background-color: #000000;
+  }

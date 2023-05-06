@@ -64,22 +64,22 @@
       "description": "5th gen"
     },
     {
-      "name": "Paul",
+      "name": "Pauline",
       "brand": "Iphone",
       "category": "Other",
       "price": "300",
       "createdAt": "2023-04-28",
       "id": 8,
-      "description": "bought used"
+      "description": "new!"
     },
     {
-      "name": "Issac",
-      "brand": "TMobile Galaxy",
-      "category": "Other",
-      "price": "340",
-      "createdAt": "2023-04-28",
-      "id": 9,
-      "description": "bought used"
+      "name": "Sarah",
+      "brand": "Iphone",
+      "category": "Phones",
+      "price": "1000",
+      "description": "used",
+      "createdAt": "2023-05-06",
+      "id": 9
     }
   ]
 }

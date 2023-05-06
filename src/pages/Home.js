@@ -22,16 +22,18 @@ export default function Home(){
         </Row>
             <Row>
             <Col></Col>
-            
                     <Col >
                         <div className="HomePage kenburns-bottom-right"></div>
-                        <ITech className="tracking-in-expand homeheader"/>
-                        <div className="HomeBanner">
+                        <ITech className=" tracking-in-expand"/>
+                       
+                 </Col>
+           
+                <Col> <div className="HomeBanner rotated">
                             <Banner/>
                             <SubscribeButton className="HomeSButton"/>
-                        </div>
-                 </Col>
-                <Col></Col>
+                        </div></Col>
+                        <Col></Col>
+                        
             </Row>
                
        
