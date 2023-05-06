@@ -66,7 +66,9 @@
     background-color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.scoot{
+    margin-left: 40px;
+}
 .subscribeheader{
     margin-left: 370px;
     margin-top: 13%;
@@ -126,9 +128,8 @@
 }
 
 .paragraphbanner{
-    font-size: 13pt;
-    background: rgba(255,255,255,0.1);
-    padding: 10px;
+    font-size: 12pt;
+    margin-left: ;
 
     
 }
@@ -174,7 +175,8 @@ margin-top: 3%;
 }
 
 .HomeSButtton{
-    float:right;
+    float:left;
+   
    
       
 
