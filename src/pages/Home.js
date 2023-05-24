@@ -7,32 +7,25 @@ import Col from 'react-bootstrap/Col';
 import "../css/index.css"
 
 
+//      json-server --watch db.json  start server
+
 export default function Home(){
     return(
         <>
         <Row>
-        
+            
         </Row>
-
-
         <Row >
-           
-                    <Col className="scoot" >
-                        <div className="HomePage kenburns-bottom-right"></div>
-                        <ITech className=" tracking-in-expand"/>                   
-                    </Col>
-           
-                <Col sm={6}>
-                     <div className="HomeBanner ">
-                            <Banner className="banner"/>
-                    </div>
+        
+        <div className="HomePage"></div>
+                    <Col sm={8}>
+                    <ITech/>
+                        <div className="HomeBanner ">
+                            <Banner className="banner "/>
+                        </div>     
                         </Col>
-                        <Col></Col>
-                        <Col></Col>
-                        
-                        
-        </Row>
-               
-       
-        </> 
-    )}
+            
+                    <Col sm={4}></Col>                      
+                </Row>   
+                </> 
+            )}

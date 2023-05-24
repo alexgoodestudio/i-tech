@@ -29,17 +29,16 @@ export default function Products(){
         <div className="ProductsPage"> 
             <Row>
                 <Col className="ITechTwo">
-                    <ITech />
+                    
                 </Col>
                 
                 <Col sm={8}>
+                    <AlternateBanner />
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     
-                    <AlternateBanner />
-
                     <br/>
                 </Col>
                 
@@ -281,13 +280,13 @@ function ProductForm(props){
                                                     defaultValue={props.product.description}/>
                                         </Form.Label>
                                     </Form.Group>
-                                    <ButtonGroup>    
+                                    <ButtonGroup className="hello">
                                         <Button      
                                             type = "submit"
                                             variant ="outline-light"
                                             className="mb-3"> Save
                                         </Button>
-                                        <Button onClick={() => props.showList()} 
+                                        <Button  onClick={() => props.showList()} 
                                             variant ="light"
                                             className="mb-3"> Cancel
                                         </Button>
@@ -301,10 +300,12 @@ function ProductForm(props){
                                 <MarbleImage/>
                             </Col>
                         </Row>
+                        
 
                             
                     
                 </div>
+                
         );
         }
     

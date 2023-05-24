@@ -10,7 +10,7 @@ export default function SubscribeButton(){
                        
                 <div>
                 <Link to="/subscribe">
-                <Button variant="outline-light " className="HomeSButtton  ">Subscribe</Button>
+                <Button variant="outline-light " className="HomeSButtton ms-4 ">Subscribe</Button>
                 </Link>
                 </div>
        

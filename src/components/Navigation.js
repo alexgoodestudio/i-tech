@@ -8,10 +8,10 @@ function Navigation () {
   return (
       <Navbar className="Navbar " variant="dark">
         <Container>
-          <Navbar.Brand href="/">i TECH</Navbar.Brand>
+          <Navbar.Brand href="/">Good Morning!</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/products">Preview</Nav.Link>
+                <Nav.Link href="/products">Product</Nav.Link>
                 <Nav.Link href="/subscribe">Subscribe</Nav.Link>
             </Nav>
         </Container>

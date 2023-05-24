@@ -15,7 +15,7 @@ export default function SubscribePage(){
                 <p className="subscribeparagraph">
                                                   If you are looking for a reliable and efficient way to manage your business expenses and operations, subscribing to our database company is the way to go. 
                                                   You can have peace of mind knowing that your business expenses and operations are being handled by professionals who are committed to delivering excellent results.
-                                                  By subscribing, we will email you a link to get started with your <span className="empha">  one month free trial!</span></p>        
+                                                  By subscribing, we will email you a link to get started with your one month free trial!</p>        
             
                 
                                                     <Subscribe2 />
