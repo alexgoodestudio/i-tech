@@ -4,17 +4,11 @@ const port = process.env.PORT || 3000; // You can set any port you want.
 
 app.use(express.json());
 
-let data = [ /* Your JSON data here */ ];
-
-app.get('/api', (req, res) => {
-    res.json(data);
+app.get("/", function (req, res) {
+  res.send("Hello World!");
 });
 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
-
-{
+let data = [ {
   "products": [
     {
       "name": "Sam",
@@ -98,4 +92,13 @@ app.listen(port, () => {
       "id": 9
     }
   ]
-}
+}];
+
+app.get('/api', (req, res) => {
+    res.json(data);
+});
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+});
+

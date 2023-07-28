@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "../css/index.css"
 import MarbleImage from "../components/MarbleImage"
 import AlternateBanner from "../components/AlternateBanner";
-import ITech from "../components/ITech";
+
 
 
 
@@ -28,23 +28,18 @@ export default function Products(){
     return(
         <div className="ProductsPage"> 
             <Row>
-                <Col className="ITechTwo">
-                    
-                </Col>
+                <Col className="ITechTwo"></Col>
                 
                 <Col sm={8}>
                     <AlternateBanner />
                     <br/>
                     <br/>
                     <br/>
-                    <br/>
-                    
+                    <br/> 
                     <br/>
                 </Col>
-                
             </Row>
             {content}
-
         </div>
     )
     }
@@ -61,7 +56,6 @@ function ProductList(props){
             return response.json()
         })
            .then ((data) => {
-            // console.log(data);
             setProducts(data);
         })
            .catch ((error) => console.log('Error: ', error));
