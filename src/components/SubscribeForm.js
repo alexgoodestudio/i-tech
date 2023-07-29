@@ -11,7 +11,7 @@ const Subscribe2 = () => {
    alert('Welcome to iTech! Check your email for instructions on Free trial!');
    
    console.log(fullName, email)
-    event.preventDefault(); // 👈️ prevent page refresh
+    event.preventDefault(); // 👈️ prevent page refreshhh
 
     // 👇️ clear all input values in the form
     setFullName('');
