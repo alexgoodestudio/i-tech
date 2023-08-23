@@ -3,7 +3,7 @@ Deployed here! https://itech-6hep.onrender.com/
 Includes Forms, CRUD, Bootstrap Styling, Animation, and written in React. 
 # I-Tech
 
-This project, hosted by alexgoodestudio, represents a significant milestone as it is the largest project to date. It's a comprehensive application that includes various features and technologies.
+This project, hosted by alexgoodestudio,is a comprehensive application that includes various features and technologies.
 
 ## Features
 
